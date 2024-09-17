@@ -30,7 +30,7 @@ main
     justify-content: center;
     align-items: center;
 }
-/*on cache la li au centre*/
+/*on cache les icons au centre*/
 .menu li
 {
     position: absolute;
