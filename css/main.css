@@ -1,10 +1,5 @@
-/*Initialisation de la bordure du site*/ 
-*
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url(reset.css);
+@import url(root.css);
 header
 {
     text-align: center;
@@ -151,4 +146,11 @@ main
 .menu.active .menuToggle
 {
     transform: rotate(315deg);
+}
+footer {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    background-color: #332736;
+    color: #fff;
 }
